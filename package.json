@@ -1,0 +1,27 @@
+{
+  "name": "stringtemp",
+  "version": "1.0.0",
+  "author": "Der_Googler <jimmyboehm@dergoogler.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DerGoogler/stringtemp.git"
+  },
+  "keywords": [
+    "utils",
+    "format",
+    "string"
+  ],
+  "main": "./dist/index.js",
+  "description": "Inject an array of items in to a string replacing selected values.",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist/ && tsc"
+  },
+  "devDependencies": {
+    "bun-types": "^0.1.0",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "/dist"
+  ]
+}
